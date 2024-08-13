@@ -34,7 +34,7 @@ q.print();
 function PriorityQueue() {
 	var collection = [];
 	this.printCollection = function () {
-		console.log(collection);
+		console.log("Queue collection: ", collection);
 	};
 	this.enqueue = function (element) {
 		if (this.isEmpty()) {
@@ -74,7 +74,8 @@ pq.enqueue(["Beau Carnes", 2]);
 pq.enqueue(["Quincy Larson", 3]);
 pq.enqueue(["Ewa Mitulska-Wójcik", 1]);
 pq.enqueue(["Briana Swift", 2]);
-pq.printCollection();
+pq.enqueue(["Jolomi Taiwo", 1]);
+pq.enqueue("Shade Jolomi");
 pq.dequeue();
 console.log(pq.front());
 pq.printCollection();
