@@ -4,7 +4,7 @@
 
 var letters = []; // this is our stack
 
-var word = "freeCodeCamp";
+var word = "madam";
 
 var rword = "";
 
